@@ -1,0 +1,191 @@
+/* Resetting and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #1f2833;
+    color: #fff;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(45deg, #ff6b6b, #f0a500);
+    color: white;
+    padding: 8rem 3rem;
+    text-align: center;
+    border-bottom: 3px solid #333;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    padding: 0.8rem 2rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Servicios */
+  .services {
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .service-item {
+    margin-bottom: 2rem;
+  }
+  
+  .service-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-item p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Request Form */
+  .request-form {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .request-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .request-form form {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .request-form form input,
+  .request-form form select {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .request-form form button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .request-form form button:hover {
+    background-color: #e05d5d;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    padding: 5rem 2rem;
+    background-color: #f3f3f3;
+  }
+  
+  .faq h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .faq-item {
+    margin-bottom: 2rem;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .faq-item p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 3rem 2rem;
+    background-color: #1f2833;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center
+  }  
